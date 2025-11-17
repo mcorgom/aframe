@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <!--ASSETS: Carga del modelo 3D-->
+    <a-assets>
+        <a-asset-item id="flora" src="flora.glb"></a-asset-item>
+    </a-assets>
+
+    <!--Flora 3D-->
+    <a-entity gltf-model="#flora" position="0 0 -3" scale="1 1 1" rotation="0 0 0"></a-entity>
+
+  </body>
+</html>

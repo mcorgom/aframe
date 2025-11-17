@@ -3,8 +3,11 @@
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
   </head>
   <body>
+    <a-assets>
+        <img id="textura-rombos" src="https://www.silocreativo.com/wp-content/uploads/2022/02/texturas-descargas-gratis-premium.png"
+    </a-assets>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#05DF72"></a-box>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#05DF72" material="src:#textura-rombos"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#F6339A"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#51A2FF"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#FEF3C6"></a-plane>
